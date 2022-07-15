@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7B010FE1288170ED00DA4DB0 /* PhotoFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B010FE0288170ED00DA4DB0 /* PhotoFetcher.swift */; };
 		7B90A3C0287CB5FE000DD827 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B90A3BF287CB5FE000DD827 /* AppDelegate.swift */; };
 		7B90A3C2287CB5FF000DD827 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B90A3C1287CB5FF000DD827 /* SceneDelegate.swift */; };
 		7B90A3C4287CB5FF000DD827 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B90A3C3287CB5FF000DD827 /* ViewController.swift */; };
@@ -63,7 +62,6 @@
 		23B712DB15E307B5A7C7A3B6 /* Pods-VenueExplorerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VenueExplorerTests.release.xcconfig"; path = "Target Support Files/Pods-VenueExplorerTests/Pods-VenueExplorerTests.release.xcconfig"; sourceTree = "<group>"; };
 		5D8935EB5909A4A77E02527C /* Pods_VenueExplorer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VenueExplorer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FD6A791AA15ECAD3A4DA6DF /* Pods_VenueExplorerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VenueExplorerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B010FE0288170ED00DA4DB0 /* PhotoFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFetcher.swift; sourceTree = "<group>"; };
 		7B90A3BC287CB5FE000DD827 /* VenueExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VenueExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B90A3BF287CB5FE000DD827 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B90A3C1287CB5FF000DD827 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -206,7 +204,6 @@
 			isa = PBXGroup;
 			children = (
 				7B90A3F0287CC1CA000DD827 /* Venue List */,
-				7B010FE0288170ED00DA4DB0 /* PhotoFetcher.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -555,7 +552,6 @@
 				7BBFD4A0287F620D00B7D942 /* RadiusPickerView.swift in Sources */,
 				7B90A3F9287CC284000DD827 /* VenueListConfigurator.swift in Sources */,
 				7BBFD496287DD35100B7D942 /* Int + Extensions.swift in Sources */,
-				7B010FE1288170ED00DA4DB0 /* PhotoFetcher.swift in Sources */,
 				7BBFD48B287D865200B7D942 /* VenueCellItem.swift in Sources */,
 				7BBFD484287D5A3500B7D942 /* VenuesGateway.swift in Sources */,
 				7BBFD491287D98F700B7D942 /* FetchPhotosUseCase.swift in Sources */,

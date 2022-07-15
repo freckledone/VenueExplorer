@@ -45,7 +45,6 @@ class VenueListViewModel: NSObject, VenueListViewModelType {
     var router: VenueListRouterType
     var fetchVenues: FetchVenueRecommendationsUseCaseType
     var fetchPhotos: FetchPhotosUseCaseType
-    var photoFetcher: PhotoFetcher?
     let locationManager = CLLocationManager()
     private let radiuses = [10, 100, 1000, 10000, 100000]
     private let disposeBag = DisposeBag()
