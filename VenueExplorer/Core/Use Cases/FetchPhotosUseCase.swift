@@ -23,7 +23,6 @@ class FetchPhotosUseCase: FetchPhotosUseCaseType {
     func fetch(for id: String) -> Observable<[Photo]> {
         gateway.fetchPhotos(id: id)
             .map { resp in
-                print("AAAAAAA usecase")
                 return resp.map({
                     Photo(
                         prefix: $0.prefix,
